@@ -7,7 +7,6 @@ import Header from './Components/Header'
 import Home from './Components/Home';
 import Company from './Components/Company';
 import Individual from './Components/Individual';
-import MissingError from './Components/MissingError';
 import ContactUs from './Components/ContactUs';
 
 class App extends Component {
@@ -17,10 +16,10 @@ class App extends Component {
         <BrowserRouter>
           <Header />
           <Switch>
-            <Route path="/" component={Home} exact />
-            <Route path="/individual" component={Individual} />
-            <Route path="/company" component={Company} />
-            <Route component={MissingError} />
+            <Route path="/nated" component={Home} exact />
+            <Route path="/nated/individual" component={Individual} />
+            <Route path="/nated/company" component={Company} />
+            <Route component={Home} />
           </Switch>
           <ContactUs />
         </BrowserRouter>

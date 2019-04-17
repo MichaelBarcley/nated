@@ -7,10 +7,10 @@ import logo from '../Resources/logo.PNG'
 const header = () => {
     return (
         <nav className="Header">
-            <NavLink to="/"><img src={logo} alt="logo"></img></NavLink>
-            <NavLink to="/individual">Magánszemélyeknek </NavLink>
-            <NavLink to="/company">Cégeknek </NavLink>
-            <NavLink to="/">Magunkról</NavLink>
+            <NavLink to="/nated"><img src={logo} alt="logo"></img></NavLink>
+            <NavLink to="/nated/individual">Magánszemélyeknek </NavLink>
+            <NavLink to="/nated/company">Cégeknek </NavLink>
+            <NavLink to="/nated">Magunkról</NavLink>
         </nav>
     );
 };

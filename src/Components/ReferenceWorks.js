@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './ReferenceWorks.css'
+import smth from '../Resources/test-reference.jpg'
 
 const referenceworks = () => {
     return (
@@ -10,19 +11,19 @@ const referenceworks = () => {
         </div>
         <div class="row js--wp-3">
             <div class="col span-1-of-4 box">
-                <img src="/images/test-reference.jpg" alt="asd" />
+                <a href="https://www.google.com"><img src={smth} alt="logo"></img></a>
                 <h3>bankarkepzo.hu</h3>
             </div>
             <div class="col span-1-of-4 box">
-                <img src="/images/test-reference.jpg" alt="work"/>
+                <a href="https://www.index.hu"><img src={smth} alt="logo"></img></a>
                 <h3>barcleys.com</h3>
             </div>
             <div class="col span-1-of-4 box">
-                <img src="/images/test-reference.jpg" alt="work"/>
+                <a href="https://www.youtube.com"><img src={smth} alt="logo"></img></a>
                 <h3>random cég</h3>
             </div>
             <div class="col span-1-of-4 box">
-                <img src="/images/test-reference.jpg" alt="work"/>
+                <a href="https://www.gmail.com"><img src={smth} alt="logo"></img></a>
                 <h3>random cég 2</h3>
             </div>
         </div>
