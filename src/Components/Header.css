@@ -1,0 +1,25 @@
+.Header {
+    color: white;
+    background-color: rgba(32, 35, 42, 0.9);
+    padding : 16px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+}
+
+.Header > nav {
+    display: inline;
+}
+
+.Header > a {
+    text-decoration: none;
+    color: white;
+}
+
+.Header > a > img {
+    width: 10%;
+    height: auto;
+    margin: 0 10%;
+    text-align: left;
+}
