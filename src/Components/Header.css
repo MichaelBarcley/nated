@@ -1,4 +1,4 @@
-.Header {
+.header {
     color: white;
     background-color: rgba(32, 35, 42, 0.9);
     padding : 16px 0;
@@ -8,18 +8,22 @@
     overflow: hidden;
 }
 
-.Header > nav {
+.header > nav {
     display: inline;
 }
 
-.Header > a {
+.header > a {
     text-decoration: none;
     color: white;
 }
 
-.Header > a > img {
+.header > a > img {
     width: 10%;
     height: auto;
     margin: 0 10%;
     text-align: left;
+}
+
+.navbaritem {
+    padding: 1%;
 }
