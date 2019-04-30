@@ -17,7 +17,7 @@ const contactus = () => {
                 </div>
                 <div className="col">
                     <h3>Dobos Imre</h3>
-                    <p>Telefonszám: +36 20 489 70 80</p>
+                    <p>Telefonszám: +36 30 653 44 00</p>
                     <p>Email cím: <a href="mailto:idobos@nated.hu">idobos@nated.hu</a></p>
                 </div>
             </div>
