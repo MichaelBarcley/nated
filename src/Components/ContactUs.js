@@ -4,7 +4,7 @@ import './ContactUs.css';
 
 const contactus = () => {
     return ( 
-        <div className="contactus">
+        <div className="contactus" id="contactus">
             <div className="interested">
                 <h2>Felkeltettük érdeklődését?</h2>
                 <p>Keressen minket bizalommal!</p>
