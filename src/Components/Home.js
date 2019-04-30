@@ -4,7 +4,7 @@ import ReferenceWorks from './ReferenceWorks';
 
 const home = () => {
     return (
-        <div className="Home">
+        <div className="home">
             <NatedIntro />
             <ReferenceWorks />
         </div>

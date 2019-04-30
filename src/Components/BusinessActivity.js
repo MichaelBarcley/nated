@@ -4,7 +4,7 @@ import './BusinessActivity.css'
 
 const businessActivity = (props) => {
     return (
-        <div className="BusinessActivity">
+        <div className="businessactivity">
             <p>Hello from Business Activity!</p>
             <p>{props.name}</p>
             <p>{props.description}</p>

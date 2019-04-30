@@ -4,7 +4,7 @@ import BusinessActivity from './BusinessActivity';
 
 const company = () => {
     return (
-        <div className="Company">
+        <div className="company">
             <div>{CompanyPageData.map(item => {
                 return <BusinessActivity name={item.name} description={item.description} />})}
             </div>
