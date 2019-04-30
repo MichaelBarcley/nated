@@ -21,6 +21,10 @@ const contactus = () => {
                     <p>Email cím: <a href="mailto:idobos@nated.hu">idobos@nated.hu</a></p>
                 </div>
             </div>
+            <div className="interested">
+                <h3>Központi Email címünk:</h3>
+                <a href="mailto:nated@nated.hu">nated@nated.hu</a>
+            </div>
         </div>
     );
 };
