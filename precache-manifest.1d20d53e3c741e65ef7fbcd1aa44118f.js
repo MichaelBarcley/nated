@@ -16,19 +16,19 @@ self.__precacheManifest = [
     "url": "/nated/static/js/runtime~main.99aec7ce.js"
   },
   {
-    "revision": "5771f67fb4d044eedde9",
-    "url": "/nated/static/js/main.5f3242e9.chunk.js"
+    "revision": "b361aca8c57d7eff58a1",
+    "url": "/nated/static/js/main.bcee7b01.chunk.js"
   },
   {
-    "revision": "2368e125d3394876b106",
-    "url": "/nated/static/js/2.4c559524.chunk.js"
+    "revision": "42bbb8436f142240bf49",
+    "url": "/nated/static/js/2.80c81bf1.chunk.js"
   },
   {
-    "revision": "5771f67fb4d044eedde9",
-    "url": "/nated/static/css/main.07620e02.chunk.css"
+    "revision": "b361aca8c57d7eff58a1",
+    "url": "/nated/static/css/main.7830b6f6.chunk.css"
   },
   {
-    "revision": "a673e777a4a12e8e87ef277e2760fa85",
+    "revision": "7c67f228af7e48aac706821d204b7b65",
     "url": "/nated/index.html"
   }
 ];
