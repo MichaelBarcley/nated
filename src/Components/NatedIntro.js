@@ -3,7 +3,7 @@ import './NatedIntro.css';
 
 const natedintro = () => {
     return (
-        <div className="natedintro">
+        <div className="natedintro" id="natedintro">
             <h2>
                 Nated
             </h2>

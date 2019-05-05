@@ -7,10 +7,12 @@ import logo from '../Resources/logo.PNG'
 
 const header = () => {
     return (
-        <div className="header">
+        <div className="header" id="header">
             <NavLink className="navbaritem" to="/nated"><img src={logo} alt="logo"></img></NavLink>
-            <NavLink className="navbaritem" to="/nated/company">Szolgáltatások</NavLink>
-            <AnchorLink href='#contactus'>Elérhetőségeink</AnchorLink>
+            <AnchorLink offset='100' className="navbaritem" href='#natedintro'>Natedről</AnchorLink>
+            <AnchorLink offset='100' className="navbaritem" href='#businessactivity'>Szolgáltatásaink</AnchorLink>
+            <AnchorLink offset='100' className="navbaritem" href='#referenceworks'>Referenciáink</AnchorLink>
+            <AnchorLink offset='100' className="navbaritem" href='#contactus'>Elérhetőségeink</AnchorLink>
         </div>
     );
 };
