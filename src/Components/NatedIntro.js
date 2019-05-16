@@ -4,7 +4,7 @@ import './NatedIntro.css';
 const natedintro = () => {
     return (
         <div className="natedintro" id="natedintro">
-            <h2>
+            <h2 className="companyname">
                 Nated
             </h2>
             <p>

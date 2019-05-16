@@ -7,13 +7,15 @@ import logo from '../Resources/logo.PNG'
 
 const header = () => {
     return (
-        <div className="header" id="header">
-            <NavLink className="navbaritem" to="/nated"><img src={logo} alt="logo"></img></NavLink>
-            <AnchorLink offset='100' className="navbaritem" href='#natedintro'>Natedről</AnchorLink>
-            <AnchorLink offset='100' className="navbaritem" href='#businessactivity'>Szolgáltatásaink</AnchorLink>
-            <AnchorLink offset='100' className="navbaritem" href='#referenceworks'>Referenciáink</AnchorLink>
-            <AnchorLink offset='100' className="navbaritem" href='#contactus'>Elérhetőségeink</AnchorLink>
-        </div>
+        <nav class="header">
+            <h1 class="logo"><NavLink className="navbaritem" to="/nated"><img src={logo} alt="logo"></img></NavLink></h1>
+            <ul class="main-nav">
+                <li><AnchorLink offset='125' className="navbaritem" href='#natedintro'>Natedről</AnchorLink></li>
+                <li><AnchorLink offset='125' className="navbaritem" href='#businessactivity'>Szolgáltatásaink</AnchorLink></li>
+                <li><AnchorLink offset='125' className="navbaritem" href='#referenceworks'>Referenciáink</AnchorLink></li>
+                <li><AnchorLink offset='125' className="navbaritem" href='#contactus'>Elérhetőségeink</AnchorLink></li>
+            </ul>
+        </nav> 
     );
 };
 
