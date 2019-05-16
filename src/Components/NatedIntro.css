@@ -11,3 +11,9 @@
 .companyname {
     color: white;
 }
+
+@media (min-width: 513px) {
+    .natedintro > div {
+        margin: 0 10%;
+    }
+}
