@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/nated/static/media/test-reference.817c8935.jpg"
   },
   {
-    "revision": "2c7ca57cc592bcb412e353a564374da9",
-    "url": "/nated/static/media/logo.2c7ca57c.PNG"
+    "revision": "46fcde49fb0cc863793dff970bff9b8a",
+    "url": "/nated/static/media/logo.46fcde49.PNG"
   },
   {
     "revision": "eeea3d187217637b6e47323eca32d731",
@@ -16,19 +16,19 @@ self.__precacheManifest = [
     "url": "/nated/static/js/runtime~main.99aec7ce.js"
   },
   {
-    "revision": "edc71c7269e678fa73d5",
-    "url": "/nated/static/js/main.42fb1a26.chunk.js"
+    "revision": "cff875a63bd10aee93b7",
+    "url": "/nated/static/js/main.29e0e7e7.chunk.js"
   },
   {
     "revision": "42bbb8436f142240bf49",
     "url": "/nated/static/js/2.80c81bf1.chunk.js"
   },
   {
-    "revision": "edc71c7269e678fa73d5",
-    "url": "/nated/static/css/main.6989ea74.chunk.css"
+    "revision": "cff875a63bd10aee93b7",
+    "url": "/nated/static/css/main.6925b89c.chunk.css"
   },
   {
-    "revision": "99710e3e2609bea1165306787519b4f0",
+    "revision": "1c1a5ad3e58889798bc9e6823c517733",
     "url": "/nated/index.html"
   }
 ];
